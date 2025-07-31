@@ -1,0 +1,5 @@
+(version 1)
+#JR J3 edge relax
+(rule J3_edge_relax 
+	(condition "A.memberOfFootprint('J2')")
+    (constraint edge_clearance(min -1.0mm)))
